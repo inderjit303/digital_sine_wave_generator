@@ -1,7 +1,17 @@
 # Mixed signal design of Digital sinewave generator using eSim:
 This repository contains an attempt to mixed signal design of a 8-bit Digital Sine wave generator using eSim
 
+# Abstract
+Producing and manipulating the sine wave function is a common problem encountered by circuit designers. Sine wave circuits pose a significant design challenge because they represent a constantly controlled linear oscillator. Sine wave circuitry is required in a number of diverse areas, including audio testing, calibration equipment, transducer drives, power conditioning and automatic test equipment (ATE). Control of frequency, amplitude or distortion level is often required and all three parameters must be simultaneously controlled in many applications with analog and digital approaches. This paper presents detailed design of a 8 bit digital sine wave generator with the help of pseudo-random-sequence (PRS) generator, Look-up table (LUT) and analog low pass filter. 
 
+# Reference Circuit Diagram
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157650835-50562825-2b41-4a14-b1f9-c64880db4349.png">
+</p> 
+<p align="center">
+Fig 1. Digital Sine wave generator block diagram
+</p>
 
 # Acknowlegdements
 1. FOSSEE Team, IIT Bombay
