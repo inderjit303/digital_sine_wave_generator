@@ -63,7 +63,7 @@ It is a tool which converts Verilog code to C++ objects. Refer: https://www.veri
 
 # Circuit diagram in esim 
 
-## Attempt 1 
+## Circuit (Version 1)  
 The following is the first version of schematic in eSim:
 
 <p align="center">
