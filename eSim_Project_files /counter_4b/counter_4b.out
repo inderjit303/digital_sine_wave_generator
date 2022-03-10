@@ -1,0 +1,31 @@
+
+No compatibility mode selected!
+
+
+Circuit: * /home/inderjitsingh/esim_mixed_signal_marathon_2022/counter_4b/counter_4b.cir
+
+ERROR - node ? cannot be both analog and digital
+EVTinit: ERROR - node ? cannot be both analog and digital
+
+Error on line 21 :
+  a1 [net-_u2-pad1_ ] [net-_u2-pad2_ ] [net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ net-_u2-pad6_ ] u2
+ MIF-ERROR - unable to find definition of model u2
+    Simulation interrupted due to error!
+
+Error: circuit not parsed.
+
+Note: no resource usage information for 'time',
+	or no active circuit available
+
+Total CPU time (seconds) = 0.009 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 247387.688 MB.
+Maximum ngspice program size =   88.328 MB.
+Current ngspice program size =   10.285 MB.
+
+Shared ngspice pages =    8.945 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =    1.961 MB.
+
