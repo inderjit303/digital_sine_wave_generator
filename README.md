@@ -13,6 +13,32 @@ Producing and manipulating the sine wave function is a common problem encountere
 Fig 1. Pseudo-random-sequence (PRS) generator
 </p>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157651325-4f1d954d-92be-4244-bfab-5194208e27d0.png">
+</p> 
+<p align="center">
+Fig 2. Analog Block: Second order Sallen Key Low Pass Filter
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157652101-c89aec12-923b-4a05-b98c-f48f9760511a.png">
+</p> 
+<p align="center">
+Fig 3. Digital Sine wave generator block diagram
+</p>
+
+# Reference waveform: 
+
+![sine wave output]()
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157652251-52f845f9-a6f5-4633-b26d-20374c6a3c13.png">
+</p> 
+<p align="center">
+Fig 4.  Output of Analog filter
+</p>
+
+
 # Acknowlegdements
 1. FOSSEE Team, IIT Bombay
 2. MakerChip, Redwood EDA
