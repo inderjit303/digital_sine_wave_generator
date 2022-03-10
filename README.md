@@ -188,7 +188,7 @@ Fig 10.  Makerchip plots for PRS generator (Compare value 10000000)
 <img src="https://user-images.githubusercontent.com/99788755/157664502-b3234cf4-fe05-4875-9bfb-896fa147734f.png">
 </p> 
 <p align="center">
-Fig 8.  Sine wave looktup table block 
+Fig 11.  Sine wave looktup table block 
 </p>
 
 
@@ -311,7 +311,7 @@ endmodule
 <img src="https://user-images.githubusercontent.com/99788755/157673803-95fc1c13-526d-46d0-9ed6-d3d2b123e52f.png">
 </p> 
 <p align="center">
-Fig 11.  Makerchip plots for Sine Wave LUT 
+Fig 12.  Makerchip plots for Sine Wave LUT 
 </p>
 
 # Netlist 
@@ -364,6 +364,10 @@ plot v(clk)
 .endc
 .end
 ```
+
+# Ngspice plots 
+![attempt1_simulation_results](https://user-images.githubusercontent.com/99788755/157677048-e79be28d-ea07-42f6-9d1b-9f757df54c54.png)
+
 
 
 # Acknowlegdements
