@@ -7,4 +7,4 @@ This repository contains an attempt to mixed signal design of a 8-bit Digital Si
 1. FOSSEE, IIT Bombay
 2. Steve Hoover, Founder, Redwood EDA
 3. Sumanto Kar, eSim Team, FOSSEE
-4. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+4. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
