@@ -386,7 +386,7 @@ Fig 14.  Clock and reset plots (Attempt 2)
 <img src="https://user-images.githubusercontent.com/99788755/157679841-427e23b2-72f5-4fc1-88fb-d071345f4e32.png">
 </p> 
 <p align="center">
-Fig 14.  Output plots (Attempt 2)
+Fig 15.  Output plots (Attempt 2)
 </p>
 
 
