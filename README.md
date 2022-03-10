@@ -366,8 +366,28 @@ plot v(clk)
 ```
 
 # Ngspice plots 
-![attempt1_simulation_results](https://user-images.githubusercontent.com/99788755/157677048-e79be28d-ea07-42f6-9d1b-9f757df54c54.png)
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157679214-96d23017-5146-41ef-a1f2-7be2fc25d7be.png">
+</p> 
+<p align="center">
+Fig 13.  Output plots (Attempt 1) 
+</p>
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157679518-bb499619-257d-4599-99a0-57f3afe636e4.png">
+</p> 
+<p align="center">
+Fig 14.  Clock and reset plots (Attempt 2)
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157679841-427e23b2-72f5-4fc1-88fb-d071345f4e32.png">
+</p> 
+<p align="center">
+Fig 14.  Output plots (Attempt 2)
+</p>
 
 
 # Acknowlegdements
