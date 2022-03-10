@@ -75,8 +75,10 @@ Fig 5.  Digital sine wave generator circuit (Attempt 1)
 
 First attempt was unsecuccesful, so in 2nd attempt 2nd order sallen key Low pass filter was replaced by RLC circuit tuned at 1KHz frequency as shown in fig 6
 
+![attempt2_circuit_schematic]()
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/99788755/157663377-ca66720e-3ba7-4009-ba6e-9f7fd9b376bd.jpg">
+<img src="https://user-images.githubusercontent.com/99788755/157664044-19782a8a-0194-42e6-9f13-b9ae4c03c8b5.png">
 </p> 
 <p align="center">
 Fig 6.  Digital sine wave generator circuit (Attempt 1) 
