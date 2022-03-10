@@ -88,15 +88,14 @@ Fig 6.  Digital sine wave generator circuit (Attempt 1)
 <img src="https://user-images.githubusercontent.com/99788755/157664490-5ce19e50-ff39-43f1-bd8a-bfad2ffa3002.png">
 </p> 
 <p align="center">
-Fig 7.  PRS genereator block
+Fig 7.  PRS generator block
 </p>
 
 ## Verilog code: 
-
+[Verilog code for PRS generator](https://github.com/inderjit303/digital_sine_wave_generator/files/8223682/Verilog.code.for.PRS.generator.txt)
 
 
 # Verilog code for Sine wave Look up table block 
-
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157664502-b3234cf4-fe05-4875-9bfb-896fa147734f.png">
