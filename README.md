@@ -4,10 +4,10 @@ This repository contains an attempt to mixed signal design of a 8-bit Digital Si
 
 
 # Acknowlegdements
-1. FOSSEE, IIT Bombay
-2. Steve Hoover, Founder, Redwood EDA
+1. FOSSEE Team, IIT Bombay
+2. MakerChip, Redwood EDA
 3. Sumanto Kar, eSim Team, FOSSEE
-4. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
+4. VLSI System Design (VSD) Corp. Pvt. Ltd India
 
 # References: 
 [1] Wolf, R.V., Bilger, R.C. A digital noise and sine-wave generator. Behavior Research Methods & Instrumentation 9, 345–348 (1977). https://doi.org/10.3758/BF03202254 
