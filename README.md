@@ -10,7 +10,7 @@ Producing and manipulating the sine wave function is a common problem encountere
 <img src="https://user-images.githubusercontent.com/99788755/157650835-50562825-2b41-4a14-b1f9-c64880db4349.png">
 </p> 
 <p align="center">
-Fig 1. 8 bit PRS generator 
+Fig 1. Pseudo-random-sequence (PRS) generator
 </p>
 
 # Acknowlegdements
