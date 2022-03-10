@@ -7,7 +7,7 @@ Producing and manipulating the sine wave function is a common problem encountere
 # Reference Circuit Diagram
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/99788755/157650835-50562825-2b41-4a14-b1f9-c64880db4349.png">
+<img src="https://user-images.githubusercontent.com/99788755/157652578-c5bfb134-c1a2-4abe-9431-2b881085eb0c.png">
 </p> 
 <p align="center">
 Fig 1. Pseudo-random-sequence (PRS) generator
@@ -29,7 +29,7 @@ Fig 3. Digital Sine wave generator block diagram
 
 # Reference waveform: 
 
-![sine wave output]()
+Fig. 4 depicts desired waveforms at the output of analog Low pass filter which is digitally controlled with input clock frequency.  
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157652251-52f845f9-a6f5-4633-b26d-20374c6a3c13.png">
@@ -37,6 +37,12 @@ Fig 3. Digital Sine wave generator block diagram
 <p align="center">
 Fig 4.  Output of Analog filter
 </p>
+
+# Reference circuit details: 
+Here, the digital block consists of a 8 bit pseudo-random-sequence (PRS) generator running at clock frequency of fCLK = 1MHz. This structure is called as Fibonacci Linear feedback shift register (LFSR). The bit positions that affect the next state are called the taps. In the Fig 1, the taps are [6,5,4]. The rightmost bit of the LFSR is called the output bit. The taps are XORed sequentially with the output bit and then fed back into the leftmost bit. The sequence of bits in the rightmost position is called the Pseudo random sequence output which is finite stream of numbers in the range 1-255 equally distributed. In addition a compare function is added, which turns one digital output pin high whenever a value in the shift register (SR) is less the value of the compare input. This will create a stream of high pulses proportional to the compare value. Next it is fed to Sine wave look up table (LUT), which look-up table method for sine wave generation. This method, involves the synthesis of sine waves with frequencies which are multiples of the fundamental frequency for which the table elements are calculated and used to approximate a sine wave. Digital block will be implemented in Verilog, whereas analog block consisting of analog LPF will be implemented in eSim as shown in Fig 3.
+
+The digital output of the PRS generator is then driving a 2nd order low-pass filter build using standard analog components such opamp, resistors and capacitors as shown in Fig 2. Analog block is implemented using 2nd order Sallen key filter Low pass filter designed for a cutoff frequency fOUT = 1 KHz. 
+ 
 
 
 # Acknowlegdements
