@@ -159,8 +159,27 @@ endmodule
 ```
 
 ## Makerchip plots
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157675138-d0c3ee30-9377-4740-b1a1-d2958eeb0f2a.png">
+</p> 
+<p align="center">
+Fig 8.  Makerchip plots for PRS generator (Compressed version: Compare value 11111110) 
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157675162-61685b52-6ee3-4d8a-bf16-16d07941b3d7.png">
+</p> 
+<p align="center">
+Fig 9.  Makerchip plots for PRS generator (Compare value 11111110) 
+</p>
 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157675195-5fbe69cf-504c-4653-906b-82803f48b3b5.png">
+</p> 
+<p align="center">
+Fig 10.  Makerchip plots for PRS generator (Compare value 10000000) 
+</p>
 
 
 # Sine wave Look up table block 
@@ -292,7 +311,7 @@ endmodule
 <img src="https://user-images.githubusercontent.com/99788755/157673803-95fc1c13-526d-46d0-9ed6-d3d2b123e52f.png">
 </p> 
 <p align="center">
-Fig 9.  Makerchip plots for Sine Wave LUT 
+Fig 11.  Makerchip plots for Sine Wave LUT 
 </p>
 
 
