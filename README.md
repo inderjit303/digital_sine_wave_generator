@@ -921,6 +921,15 @@ endmodule
 Fig 13.  Makerchip plots for Sine Wave LUT 
 </p>
 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157728636-6fab83ff-1876-4030-98eb-e5407aa4badd.png">
+</p> 
+<p align="center">
+Fig 14.  Makerchip plots for Sine Wave LUT (Attempt 3) 
+</p>
+
+
 # Netlist 
 ```
 * /home/inderjitsingh/esim_mixed_signal_marathon_2022/digital_sine_wave/digital_sine_wave.cir
@@ -1029,7 +1038,7 @@ plot v(clk)
 <img src="https://user-images.githubusercontent.com/99788755/157679214-96d23017-5146-41ef-a1f2-7be2fc25d7be.png">
 </p> 
 <p align="center">
-Fig 14.  Output plots (Attempt 1) 
+Fig 15.  Output plots (Attempt 1) 
 </p>
 
 
@@ -1037,21 +1046,21 @@ Fig 14.  Output plots (Attempt 1)
 <img src="https://user-images.githubusercontent.com/99788755/157679518-bb499619-257d-4599-99a0-57f3afe636e4.png">
 </p> 
 <p align="center">
-Fig 15.  Clock and reset plots (Attempt 2)
+Fig 16.  Clock and reset plots (Attempt 2)
 </p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157679841-427e23b2-72f5-4fc1-88fb-d071345f4e32.png">
 </p> 
 <p align="center">
-Fig 16.  Output plots (Attempt 2)
+Fig 17.  Output plots (Attempt 2)
 </p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157727113-a3ec8362-89c2-4377-bf29-6b57805d5b72.png">
 </p> 
 <p align="center">
-Fig 17.  Output plots (1ms) (Attempt 3)
+Fig 18.  Output plots (1ms) (Attempt 3)
 </p>
 
 
@@ -1059,7 +1068,7 @@ Fig 17.  Output plots (1ms) (Attempt 3)
 <img src="https://user-images.githubusercontent.com/99788755/157727267-b883bea3-e7bf-4500-909e-957c97d1d9f9.png">
 </p> 
 <p align="center">
-Fig 18.  Output plots (10ms) (Attempt 3)
+Fig 19.  Output plots (10ms) (Attempt 3)
 </p>
 
 
