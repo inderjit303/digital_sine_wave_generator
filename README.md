@@ -139,7 +139,6 @@ module inderjit_digi_sinewave_generator(clk, dsine, data_out);
         sine[15] = -76;
         sine[16] = 0;
     end
-    
     //At every positive edge of the clock, output a sine wave sample.
     always@ (posedge clk)
     begin
