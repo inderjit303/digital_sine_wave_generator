@@ -63,8 +63,8 @@ It is a tool which converts Verilog code to C++ objects. Refer: https://www.veri
 
 # Circuit diagram in esim 
 
-## Circuit (Version 1)  
-The following is the first version of schematic in eSim:
+## Circuit (Attempt 1)  
+The following is the first version of schematic in eSim is shown in fig 5
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157656849-9fb3ed2e-23b5-40e9-98d4-4816fcfcca8d.png">
@@ -73,8 +73,14 @@ The following is the first version of schematic in eSim:
 Fig 5.  Digital sine wave generator circuit (Attempt 1) 
 </p>
 
+First attempt was unsecuccesful, so in 2nd attempt 2nd order sallen key Low pass filter was replaced by RLC circuit tuned at 1KHz frequency as shown in fig 6
 
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157663377-ca66720e-3ba7-4009-ba6e-9f7fd9b376bd.jpg">
+</p> 
+<p align="center">
+Fig 6.  Digital sine wave generator circuit (Attempt 1) 
+</p>
 
 # Acknowlegdements
 1. FOSSEE Team, IIT Bombay
