@@ -43,6 +43,23 @@ Here, the digital block consists of a 8 bit pseudo-random-sequence (PRS) generat
 
 Next it is fed to Sine wave look up table (LUT), which look-up table method for sine wave generation. This method, involves the synthesis of sine waves with frequencies which are multiples of the fundamental frequency for which the table elements are calculated and used to approximate a sine wave. Digital block will be implemented in Verilog, whereas analog block consisting of analog LPF will be implemented in eSim as shown in Fig 3. The digital output of the PRS generator is then driving a 2nd order low-pass filter build using standard analog components such opamp, resistors and capacitors as shown in Fig 2. Analog block is implemented using 2nd order Sallen key filter Low pass filter designed for a cutoff frequency fOUT = 1 KHz. 
  
+# Software Used
+
+## eSim
+It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
+For more details refer:
+https://esim.fossee.in/home
+
+## NgSpice
+It is an Open Source Software for Spice Simulations. For more details refer:
+http://ngspice.sourceforge.net/docs.html
+
+## Makerchip
+It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
+https://www.makerchip.com/
+
+## Verilator
+It is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/
 
 
 # Acknowlegdements
