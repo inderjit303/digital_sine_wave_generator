@@ -107,8 +107,7 @@ Fig 8.  Sine wave looktup table block
 
 
 ## Verilog code: 
-Verilog code for sinewave lookup table
-[Verilog code for Sine wave Look up table.txt](https://github.com/inderjit303/digital_sine_wave_generator/files/8223608/Verilog.code.for.Sine.wave.Look.up.table.txt)
+[Verilog code for Sine wave Look up table](https://github.com/inderjit303/digital_sine_wave_generator/files/8223608/Verilog.code.for.Sine.wave.Look.up.table.txt)
 
 
 # Acknowlegdements
