@@ -389,6 +389,15 @@ Fig 14.  Clock and reset plots (Attempt 2)
 Fig 15.  Output plots (Attempt 2)
 </p>
 
+# Steps to run generate NgVeri Model
+1. Open eSim
+2. Run NgVeri-Makerchip
+3. Add top level verilog file in Makerchip Tab
+4. Click on NgVeri tab
+5. Add dependency files
+6. Click on Run Verilog to NgSpice Converter
+7. Debug if any errors
+8. Model created successfully
 
 # Acknowlegdements
 1. FOSSEE Team, IIT Bombay
