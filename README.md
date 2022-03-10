@@ -82,7 +82,7 @@ First attempt was unsecuccesful, so in 2nd attempt 2nd order sallen key Low pass
 Fig 6.  Digital sine wave generator circuit (Attempt 1) 
 </p>
 
-# Verilog code for PRS generator block 
+# PRS generator block 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157664490-5ce19e50-ff39-43f1-bd8a-bfad2ffa3002.png">
@@ -158,7 +158,12 @@ endmodule
 endmodule
 ```
 
-# Verilog code for Sine wave Look up table block 
+## Makerchip plots
+
+
+
+
+# Sine wave Look up table block 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157664502-b3234cf4-fe05-4875-9bfb-896fa147734f.png">
@@ -281,6 +286,15 @@ endmodule
 endmodule
 
 ```
+## Makerchip plots
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157673803-95fc1c13-526d-46d0-9ed6-d3d2b123e52f.png">
+</p> 
+<p align="center">
+Fig 9.  Makerchip plots for Sine Wave LUT 
+</p>
+
 
 # Acknowlegdements
 1. FOSSEE Team, IIT Bombay
