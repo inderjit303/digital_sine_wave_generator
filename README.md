@@ -61,6 +61,20 @@ https://www.makerchip.com/
 ## Verilator
 It is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/
 
+# Circuit diagram in esim 
+
+## Attempt 1 
+The following is the first version of schematic in eSim:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157656849-9fb3ed2e-23b5-40e9-98d4-4816fcfcca8d.png">
+</p> 
+<p align="center">
+Fig 5.  Digital sine wave generator circuit (Attempt 1) 
+</p>
+
+
+
 
 # Acknowlegdements
 1. FOSSEE Team, IIT Bombay
