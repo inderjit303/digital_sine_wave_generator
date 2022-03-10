@@ -82,6 +82,33 @@ First attempt was unsecuccesful, so in 2nd attempt 2nd order sallen key Low pass
 Fig 6.  Digital sine wave generator circuit (Attempt 1) 
 </p>
 
+# Verilog code for PRS generator block 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157664490-5ce19e50-ff39-43f1-bd8a-bfad2ffa3002.png">
+</p> 
+<p align="center">
+Fig 7.  PRS genereator block
+</p>
+
+## Verilog code: 
+
+
+
+# Verilog code for Sine wave Look up table block 
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157664502-b3234cf4-fe05-4875-9bfb-896fa147734f.png">
+</p> 
+<p align="center">
+Fig 8.  Sine wave looktup table block 
+</p>
+
+
+## Verilog code: 
+
+
 # Acknowlegdements
 1. FOSSEE Team, IIT Bombay
 2. MakerChip, Redwood EDA
