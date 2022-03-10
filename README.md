@@ -107,6 +107,7 @@ Fig 8.  Sine wave looktup table block
 
 
 ## Verilog code: 
+//Verilog code for sinewave lookup table.
 module inderjit_digi_sinewave_generator(clk, dsine, data_out);
 //declare input and output
     input clk;
