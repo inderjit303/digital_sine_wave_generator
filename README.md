@@ -63,7 +63,6 @@ It is a tool which converts Verilog code to C++ objects. Refer: https://www.veri
 
 # Circuit diagram in esim 
 
-## Circuit (Attempt 1)  
 The following is the first version of schematic in eSim is shown in fig 5
 
 <p align="center">
@@ -79,8 +78,18 @@ First attempt was unsecuccesful, so in 2nd attempt 2nd order sallen key Low pass
 <img src="https://user-images.githubusercontent.com/99788755/157664044-19782a8a-0194-42e6-9f13-b9ae4c03c8b5.png">
 </p> 
 <p align="center">
-Fig 6.  Digital sine wave generator circuit (Attempt 1) 
+Fig 6.  Digital sine wave generator circuit (Attempt 2) 
 </p>
+
+Second attempt was also unsecuccesful, so in 3rd attempt, number of data points for LUT were increased from 16 to 256 as shown in fig 7
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157726867-270e2832-5507-427c-bfc0-f96a87a78df4.png">
+</p> 
+<p align="center">
+Fig 7.  Digital sine wave generator circuit (Attempt 3) 
+</p>
+
 
 # PRS generator block 
 
@@ -88,7 +97,7 @@ Fig 6.  Digital sine wave generator circuit (Attempt 1)
 <img src="https://user-images.githubusercontent.com/99788755/157664490-5ce19e50-ff39-43f1-bd8a-bfad2ffa3002.png">
 </p> 
 <p align="center">
-Fig 7.  PRS generator block
+Fig 8.  PRS generator block
 </p>
 
 ## Verilog code: 
@@ -163,14 +172,14 @@ endmodule
 <img src="https://user-images.githubusercontent.com/99788755/157675138-d0c3ee30-9377-4740-b1a1-d2958eeb0f2a.png">
 </p> 
 <p align="center">
-Fig 8.  Makerchip plots for PRS generator (Compressed version: Compare value 11111110) 
+Fig 9.  Makerchip plots for PRS generator (Compressed version: Compare value 11111110) 
 </p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157675162-61685b52-6ee3-4d8a-bf16-16d07941b3d7.png">
 </p> 
 <p align="center">
-Fig 9.  Makerchip plots for PRS generator (Compare value 11111110) 
+Fig 10.  Makerchip plots for PRS generator (Compare value 11111110) 
 </p>
 
 
@@ -178,7 +187,7 @@ Fig 9.  Makerchip plots for PRS generator (Compare value 11111110)
 <img src="https://user-images.githubusercontent.com/99788755/157675195-5fbe69cf-504c-4653-906b-82803f48b3b5.png">
 </p> 
 <p align="center">
-Fig 10.  Makerchip plots for PRS generator (Compare value 10000000) 
+Fig 11.  Makerchip plots for PRS generator (Compare value 10000000) 
 </p>
 
 
@@ -188,7 +197,7 @@ Fig 10.  Makerchip plots for PRS generator (Compare value 10000000)
 <img src="https://user-images.githubusercontent.com/99788755/157664502-b3234cf4-fe05-4875-9bfb-896fa147734f.png">
 </p> 
 <p align="center">
-Fig 11.  Sine wave looktup table block 
+Fig 12.  Sine wave looktup table block 
 </p>
 
 
@@ -311,7 +320,7 @@ endmodule
 <img src="https://user-images.githubusercontent.com/99788755/157673803-95fc1c13-526d-46d0-9ed6-d3d2b123e52f.png">
 </p> 
 <p align="center">
-Fig 12.  Makerchip plots for Sine Wave LUT 
+Fig 13.  Makerchip plots for Sine Wave LUT 
 </p>
 
 # Netlist 
@@ -371,7 +380,7 @@ plot v(clk)
 <img src="https://user-images.githubusercontent.com/99788755/157679214-96d23017-5146-41ef-a1f2-7be2fc25d7be.png">
 </p> 
 <p align="center">
-Fig 13.  Output plots (Attempt 1) 
+Fig 14.  Output plots (Attempt 1) 
 </p>
 
 
@@ -379,15 +388,31 @@ Fig 13.  Output plots (Attempt 1)
 <img src="https://user-images.githubusercontent.com/99788755/157679518-bb499619-257d-4599-99a0-57f3afe636e4.png">
 </p> 
 <p align="center">
-Fig 14.  Clock and reset plots (Attempt 2)
+Fig 15.  Clock and reset plots (Attempt 2)
 </p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157679841-427e23b2-72f5-4fc1-88fb-d071345f4e32.png">
 </p> 
 <p align="center">
-Fig 15.  Output plots (Attempt 2)
+Fig 16.  Output plots (Attempt 2)
 </p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157727113-a3ec8362-89c2-4377-bf29-6b57805d5b72.png">
+</p> 
+<p align="center">
+Fig 17.  Output plots (1ms) (Attempt 3)
+</p>
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99788755/157727267-b883bea3-e7bf-4500-909e-957c97d1d9f9.png">
+</p> 
+<p align="center">
+Fig 18.  Output plots (10ms) (Attempt 3)
+</p>
+
 
 # Steps to run generate NgVeri Model
 1. Open eSim
