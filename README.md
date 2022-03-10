@@ -10,7 +10,7 @@ Producing and manipulating the sine wave function is a common problem encountere
 <img src="https://user-images.githubusercontent.com/99788755/157650835-50562825-2b41-4a14-b1f9-c64880db4349.png">
 </p> 
 <p align="center">
-Fig 1. Digital Sine wave generator block diagram
+Fig 1. 8 bit PRS generator 
 </p>
 
 # Acknowlegdements
