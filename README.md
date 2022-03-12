@@ -188,7 +188,7 @@ endmodule
 ```
 
 ## Makerchip plots
-Makerchip plots for PRS generator block are shown in fig 9. As the sift register value range is between 1 to 255 means if compare value is  11111111, the output will be always 1. If the compare value is 0, the output will always be 0. Fig 9 shows the PRS generator block for compare value 11111110 which shows one low pulse in a periodic stream with 8 bit PRS period (i.e 2^n-1, where n = 8)  
+Makerchip output plots for PRS generator block are shown in fig 9. As the sift register value range is between 1 to 255 means if compare value is  11111111, the output will be always 1. If the compare value is 0, the output will always be 0. Fig 9 shows the compressed version of the PRS generator block waveforms for compare value 11111110 which shows one low pulse in a periodic stream after 255 clock pulses with 8 bit PRS period (i.e 2^n-1, where n = 8)  
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157675138-d0c3ee30-9377-4740-b1a1-d2958eeb0f2a.png">
@@ -204,6 +204,7 @@ Fig 9.  Makerchip plots for PRS generator (Compressed version: Compare value 111
 Fig 10.  Makerchip plots for PRS generator (Compare value 11111110) 
 </p>
 
+Fig 10 shows PRS generator block output waveforms for compare value 10100000 which shows output high and compare output is high when compare value is above or equal the value in the shift register.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157675195-5fbe69cf-504c-4653-906b-82803f48b3b5.png">
