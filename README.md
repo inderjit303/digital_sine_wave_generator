@@ -82,6 +82,7 @@ It is a tool which converts Verilog code to C++ objects. Refer: https://www.veri
 # Circuit diagram in eSim 
 
 The following is the first version of schematic in eSim is shown in fig 5
+It consists of 8 bit PRS generator, digital sine wave LUT generator, 10 bit DAC used as 8 bit DAC and 2nd order sallen key low pass filter tuned at 1KHz. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157656849-9fb3ed2e-23b5-40e9-98d4-4816fcfcca8d.png">
@@ -110,6 +111,7 @@ Fig 7.  Digital sine wave generator circuit (Attempt 3)
 
 
 # PRS generator block 
+PRS generator block shown in fig 8, generates a finite stream of numbers in range 1 to 255 equally distributed. In addition we add a compare function, which turns one digital output pin high whenever a value in the shift register (SR) is less the value of the compare input. This will create a stream of high pulses proportional to the compare value. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157664490-5ce19e50-ff39-43f1-bd8a-bfad2ffa3002.png">
@@ -186,6 +188,8 @@ endmodule
 ```
 
 ## Makerchip plots
+Makerchip plots for PRS generator block are shown in fig 9. As the sift register value range is between 1 to 255 means if compare value is  11111111, the output will be always 1. If the compare value is 0, the output will always be 0. Fig 9 shows the PRS generator block for compare value 11111110 which shows one low pulse in a periodic stream with 8 bit PRS period (i.e 2^n-1, where n = 8)  
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157675138-d0c3ee30-9377-4740-b1a1-d2958eeb0f2a.png">
 </p> 
