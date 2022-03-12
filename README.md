@@ -204,7 +204,7 @@ Fig 9.  Makerchip plots for PRS generator (Compressed version: Compare value 111
 Fig 10.  Makerchip plots for PRS generator (Compare value 11111110) 
 </p>
 
-Fig 10 shows PRS generator block output waveforms for compare value 10100000 which shows output high and compare output is high when compare value is above or equal the value in the shift register.
+Fig 10 shows PRS generator block output waveforms for compare value 10100000 which shows output high when compare value is above or equal the value in the shift register.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157675195-5fbe69cf-504c-4653-906b-82803f48b3b5.png">
@@ -215,6 +215,8 @@ Fig 11.  Makerchip plots for PRS generator (Compare value 10000000)
 
 
 # Sine wave Look up table block 
+
+Fig 12 shows the digital block of sine wave lookup table. The output of PRS generator is fed to dsine0 input with a common clock. LUT contains 16 data points representing Sine wave which corresponds to the output i.e 8 bit data output from data_out0 to data_out7.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157664502-b3234cf4-fe05-4875-9bfb-896fa147734f.png">
@@ -937,6 +939,8 @@ endmodule
 
 ## Makerchip plots
 
+Fig 13 shows the output plots i.e 8 bit data_out for 16 data points which make up the sine wave lookup table. 
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157673803-95fc1c13-526d-46d0-9ed6-d3d2b123e52f.png">
 </p> 
@@ -944,6 +948,7 @@ endmodule
 Fig 13.  Makerchip plots for Sine Wave LUT 
 </p>
 
+Fig 14 shows the output plots i.e 8 bit data_out for 256 data points which make up the sine wave lookup table.  
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157728636-6fab83ff-1876-4030-98eb-e5407aa4badd.png">
@@ -954,6 +959,10 @@ Fig 14.  Makerchip plots for Sine Wave LUT (Attempt 3)
 
 
 # Netlist 
+
+The netlist for attempt 2 is written below which includes the following:
+8 bit PRS generator, low pass filter, analog to digital and digital to analog bridge to connect the two worlds, 1.024 MHz clock and reset pulse at the beginning, and sine stimulus as 8-bit table in time with 16 data points.
+
 ```
 * /home/inderjitsingh/esim_mixed_signal_marathon_2022/digital_sine_wave/digital_sine_wave.cir
 
@@ -1005,9 +1014,12 @@ plot v(clk)
 ```
 
 ## Netlist for Attempt 3: 
+
+The netlist for attempt 3 is written below which includes the following:
+8 bit PRS generator, low pass filter, analog to digital and digital to analog bridge to connect the two worlds, 1.024 MHz clock and reset pulse at the beginning, and sine stimulus as 8-bit table in time with 256 data points.
+
 ```
 * /home/inderjitsingh/esim_mixed_signal_marathon_2022/digital_sine_wave/digital_sine_wave.cir
-
 .include 10bitDAC.sub
 * u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ inderjit_prs8bit_generator
 * u3  clk reset net-_u1-pad1_ net-_u1-pad2_ adc_bridge_2
@@ -1057,13 +1069,14 @@ plot v(clk)
 
 # Ngspice plots 
 
+Fig 15 shows ngspice plots for circuit schematic (attempt 1), it contains dac and analog output. Attempt 1 was clearly unsucessful. 
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157679214-96d23017-5146-41ef-a1f2-7be2fc25d7be.png">
 </p> 
 <p align="center">
 Fig 15.  Output plots (Attempt 1) 
 </p>
-
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157679518-bb499619-257d-4599-99a0-57f3afe636e4.png">
@@ -1072,12 +1085,16 @@ Fig 15.  Output plots (Attempt 1)
 Fig 16.  Clock and reset plots (Attempt 2)
 </p>
 
+Fig 17 shows ngspice plots for circuit schematic (attempt 2), it contains dac and analog output. Attempt 2 was also unsucessful as expected output should be a sine wave of 1KHz frequency. 
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157679841-427e23b2-72f5-4fc1-88fb-d071345f4e32.png">
 </p> 
 <p align="center">
 Fig 17.  Output plots (Attempt 2)
 </p>
+
+Fig 18 shows ngspice plots for circuit schematic (attempt 3), it contains dac and analog output. Attempt 3 was also unsucessful as expected output should be a sine wave of 1KHz frequency. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157727113-a3ec8362-89c2-4377-bf29-6b57805d5b72.png">
@@ -1086,6 +1103,7 @@ Fig 17.  Output plots (Attempt 2)
 Fig 18.  Output plots (1ms) (Attempt 3)
 </p>
 
+Fig 19 shows ngspice plots for circuit schematic (attempt 3) with 10ms stop time, it contains dac and analog outputs. Attempt 3 was also partically correct as sine wave oscillations are visible but their amplitude and freqneucy is noe as dersired. Also, the expected sine wave output of 1KHz frequency was not achieved.  
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99788755/157727267-b883bea3-e7bf-4500-909e-957c97d1d9f9.png">
